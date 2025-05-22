@@ -10,7 +10,10 @@ header{
 .logobox h4{
    font-size: 18px; 
    color: rgb(42, 42, 172);
-   margin-top: 10px;
+
+}
+.logobox{
+  margin-top: 10px;
 }
 
 .logobox a{
@@ -25,7 +28,7 @@ header{
 
 .top-btn {
   padding: 5px 20px;
-  margin-top: 5px;
+  margin-top: 10px;
 background-color: darkslategrey;
   border-radius: 10px;
   border: none;
@@ -38,7 +41,7 @@ background-color: darkslategrey;
   display: none;
   height: 90%;
   width: 50%;
-  transition: 0.5 ease;
+
 }
 
 .topForm.show {
