@@ -1,0 +1,6 @@
+let form = document.querySelector(".topForm");
+let btn = document.querySelector('.top-btn');
+
+btn.addEventListener('click', function() {
+  form.classList.toggle('show');
+});

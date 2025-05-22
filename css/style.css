@@ -1,0 +1,46 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    height: 70px;
+   background-color: aquamarine;
+    
+}
+.logobox h4{
+   font-size: 18px; 
+   color: rgb(42, 42, 172);
+   margin-top: 10px;
+}
+
+.logobox a{
+    text-decoration: none;
+}
+.nav-link{
+    color: black;
+}
+
+
+
+
+.top-btn {
+  padding: 5px 20px;
+  margin-top: 5px;
+background-color: darkslategrey;
+  border-radius: 10px;
+  border: none;
+  color: antiquewhite;
+}
+
+.topForm {
+  background-color: aqua;
+ padding: 30px 10px;
+  display: none;
+  height: 90%;
+  width: 50%;
+  transition: 0.5 ease;
+}
+
+.topForm.show {
+  display: block;
+}
