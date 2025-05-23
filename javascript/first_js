@@ -4,3 +4,14 @@ let btn = document.querySelector('.top-btn');
 btn.addEventListener('click', function() {
   form.classList.toggle('show');
 });
+let showButton = document.querySelector(".show-btn");
+let closeButton = document.querySelector(".closs-btn");
+let formBox = document.querySelector(".formBox");
+
+showButton.addEventListener("click", function() {
+    formBox.classList.add("active");
+});
+
+closeButton.addEventListener("click", function() {
+    formBox.classList.remove("active");
+});

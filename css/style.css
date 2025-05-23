@@ -47,3 +47,55 @@ background-color: darkslategrey;
 .topForm.show {
   display: block;
 }
+/* -------------------------------------------------------------------------- */
+body{
+  overflow: hidden;
+}
+.show-btn{
+  padding: 10px 20px;
+  background-color: aqua;
+  border: none;
+  border-radius: 10px;
+  margin: 20px;
+}
+.formBox{
+  width: 300px;
+  height: 100%;
+  position: relative;
+  top: 10;
+  /* right: -1900px; */
+  left: -300px;
+  background-color: aquamarine;
+  box-sizing: border-box;
+  padding: 20px;
+  transition: .8s ease-in-out;
+
+
+}
+.formBox.active{
+left: 0;
+}
+.closs-btn{
+  font-size: 40px;
+  color: #c73737;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+left: 10px;
+}
+form{
+ margin-top: 60px;
+ display: flex;
+ flex-direction: column;
+}
+input , textarea{
+   margin-bottom: 20px;
+  padding: 8px;
+  font-size: 16px;
+}
+input[type=submit]  {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
